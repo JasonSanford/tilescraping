@@ -23,7 +23,7 @@ tl copy -z 15 -Z 17 -b '-80.897226 35.636093 -80.881262 35.648578' 'http://tilei
 
 #### Mapbox Studio to MBTiles
 
-Scrape a vector tiles style and store in MBTiles. This will fail on any styles that utilize Mapbox studio fonts. An [upcoming release](https://github.com/mapbox/mapbox-studio/issues/395#issuecomment-61421362) might have custom fonts, so you'll want to use those probably.
+Scrape a vector tiles style and store in MBTiles. This will fail on any styles that utilize Mapbox studio fonts. You can work around this by using custom fonts.
 
 ```bash
 npm install -g tl mbtiles tilelive-tmstyle tilelive-mapbox
